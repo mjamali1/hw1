@@ -10,4 +10,12 @@
 int main(int argc, char* argv[])
 {
 
+  ULListStr dat;
+
+  dat.push_back("1");
+  dat.push_front("2");
+
+  std::cout << dat.get(0) << " " << dat.get(1) << " " << dat.get(2) << std::endl;
+
+
 }

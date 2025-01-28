@@ -18,5 +18,7 @@ struct Node
 };
 
 void split(Node*& in, Node*& odds, Node*& evens);
+// Node* createList(int val);
+// void printList(Node* head);
 
 #endif
