@@ -15,7 +15,7 @@ int main(int argc, char* argv[])
   dat.push_back("1");
   dat.push_front("2");
 
-  std::cout << dat.get(0) << " " << dat.get(1) << " " << dat.get(2) << std::endl;
+  std::cout << dat.get(0) << " " << dat.get(1) << std::endl;
 
 
 }
